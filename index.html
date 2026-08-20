@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand Everything SL — Premium Branding &amp; Digital Agency</title>
+    <meta name="description" content="We don't just build brands, we build businesses. Brand Everything SL is Sierra Leone's premier creative branding and digital marketing agency." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================================
+    NAVIGATION
+    ============================================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo" data-page="home">
+                <img src="hero.jpeg" alt="BrandEverythingSL Logo" class="logo-img">
+                
+                        <span>Brand Everything</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" data-page="home" class="active">Home</a></li>
+                <li><a href="#" data-page="about">About</a></li>
+                <li><a href="#" data-page="services">Services</a></li>
+                <li><a href="#" data-page="portfolio">Portfolio</a></li>
+                <li><a href="#" data-page="case-studies">Case Studies</a></li>
+                <li><a href="#" data-page="blog">Blog</a></li>
+                <li><a href="#" data-page="brand-audit">Brand Audit</a></li>
+                <li><a href="#" data-page="pricing">Pricing</a></li>
+                <li><a href="#" data-page="contact">Contact</a></li>
+                <li><a href="#" data-page="faq">FAQ</a></li>
+                <li><a href="#" data-page="dashboard">Dashboard</a></li>
+                <li><a href="#" data-page="brand-audit" class="nav-cta">Free Audit</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    CHATBOT
+    ============================================================ -->
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chat-header">
+            <span><i class="fas fa-robot" style="color:var(--accent);margin-right:8px;"></i>Brand AI Assistant</span>
+            <button id="chatbotClose"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="msg bot">👋 Hi! I'm Brand Everything's AI assistant. Ask me about our branding, marketing, pricing, or anything else!</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Type your message..." />
+            <button id="chatSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- ============================================================
+    PAGE: HOME
+    ============================================================ -->
+    <section class="page-section active" id="page-home">
+
+        <!-- HERO -->
+        <div class="hero">
+            <div class="hero-video-bg">
+                <video autoplay muted loop playsinline>
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-desert-night-sky-3280-large.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>We Don't Just Build Brands, <span class="highlight">We Build Businesses.</span></h1>
+                    <p>Brand Everything SL is Sierra Leone's premium creative agency — blending bold strategy, stunning design, and results-driven marketing to transform your business.</p>
+                    <div class="hero-buttons">
+                        <a href="#" data-page="brand-audit" class="btn btn-primary"><i class="fas fa-rocket"></i> Free Brand Audit</a>
+                        <a href="https://wa.me/23230867619" data-page="contact" class="btn btn-outline"><i class="fas fa-comment"></i> Let's Talk</a>
+                        
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3 class="counter-number" data-target="150">0</h3>
+                            <p>Projects Delivered</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter-number" data-target="98">0</h3>
+                            <p>Client Satisfaction %</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter-number" data-target="12">0</h3>
+                            <p>Industry Awards</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <div class="card-icon"><i class="fas fa-bolt"></i></div>
+                        <h4>Your Brand Partner in Sierra Leone</h4>
+                        <p>From strategy to execution — we deliver premium branding and marketing that drives growth.</p>
+                        <div class="badge-row">
+                            <span>Strategy</span>
+                            <span>Design</span>
+                            <span>Digital</span>
+                            <span>Growth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CLIENT LOGOS -->
+        <div class="logos-section">
+            <div class="container">
+                <div class="logos-grid">
+                    <span class="logo-item"><i class="fas fa-building"></i> Bank of SL</span>
+                    <span class="logo-item"><i class="fas fa-mobile-alt"></i> Africell</span>
+                    <span class="logo-item"><i class="fas fa-satellite"></i> Orange</span>
+                    <span class="logo-item"><i class="fas fa-university"></i> Rokel Bank</span>
+                    <span class="logo-item"><i class="fas fa-tint"></i> Sierra Leone Brewery</span>
+                    <span class="logo-item"><i class="fas fa-plane"></i> Sierra Leone Airlines</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT SNIPPET -->
+        <div class="section-padding">
+            <div class="container">
+                <div class="about-snippet">
+                    <div class="about-image">
+                        <div class="icon-grid">
+                            <div><i class="fas fa-pen-fancy"></i><span>Creative</span></div>
+                            <div><i class="fas fa-chart-line"></i><span>Strategic</span></div>
+                            <div><i class="fas fa-code"></i><span>Digital</span></div>
+                            <div><i class="fas fa-bullseye"></i><span>Results</span></div>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <span class="section-label">Who We Are</span>
+                        <h2 class="section-title">Premium Branding &amp; <span class="highlight">Digital Marketing</span></h2>
+                        <p style="color:var(--text-muted);font-size:1.05rem;line-height:1.8;margin-bottom:20px;">
+                            Brand Everything SL is a full-service creative agency based in Freetown, Sierra Leone. We combine world-class design, data-driven marketing, and deep local insight to help banks, telecoms, and businesses dominate their markets.
+                        </p>
+                        <p style="color:var(--text-muted);font-size:1.05rem;line-height:1.8;">
+                            From brand identity to digital campaigns, we don't just build brands — we build businesses that last.
+                        </p>
+                        <div style="margin-top:24px;">
+                            <a href="#" data-page="about" class="btn btn-primary">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FEATURED SERVICES -->
+        <div class="section-padding" style="padding-top:0;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">What We Do</span>
+                    <h2 class="section-title">Premium <span class="highlight">Services</span></h2>
+                    <p class="section-sub">End-to-end branding and marketing solutions tailored for Sierra Leone's most ambitious businesses.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-palette"></i></div>
+                        <h3>Brand Identity</h3>
+                        <p>Logo design, visual identity, brand guidelines, and positioning that makes you unforgettable.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-bullhorn"></i></div>
+                        <h3>Digital Marketing</h3>
+                        <p>SEO, social media, PPC, email marketing — data-driven campaigns that deliver real ROI.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Web &amp; App Design</h3>
+                        <p>Stunning, high-performance websites and mobile apps that convert visitors into customers.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon"><i class="fas fa-video"></i></div>
+                        <h3>Content &amp; Video</h3>
+                        <p>Professional photography, video production, and content marketing that tells your story.</p>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:32px;">
+                    <a href="#" data-page="services" class="btn btn-outline">Explore All Services <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PORTFOLIO HIGHLIGHTS -->
+        <div class="section-padding" style="background:rgba(255,255,255,0.015);">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Our Work</span>
+                    <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                    <p class="section-sub">See how we've helped leading brands in Sierra Leone and beyond stand out.</p>
+                </div>
+                <div class="portfolio-grid" style="margin-top:32px;">
+                    <div class="portfolio-item">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);">
+                            <i class="fas fa-university"></i>
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                        <div class="info">
+                            <h4>Rokel Bank Rebrand</h4>
+                            <p>Complete brand overhaul for Sierra Leone's oldest bank.</p>
+                            <span class="tag">Branding</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                        <div class="info">
+                            <h4>Africell Digital Campaign</h4>
+                            <p>Multi-channel marketing campaign driving 40% growth.</p>
+                            <span class="tag">Digital</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);">
+                            <i class="fas fa-satellite"></i>
+                            <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                        </div>
+                        <div class="info">
+                            <h4>Orange Brand Strategy</h4>
+                            <p>Strategic brand positioning and visual identity refresh.</p>
+                            <span class="tag">Strategy</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:32px;">
+                    <a href="#" data-page="portfolio" class="btn btn-primary">View Full Portfolio <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CASE STUDIES -->
+        <div class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Results</span>
+                    <h2 class="section-title">Case Study <span class="highlight">Snapshots</span></h2>
+                    <p class="section-sub">Real results for real businesses. Here's what we've achieved for our clients.</p>
+                </div>
+                <div class="case-grid">
+                    <div class="case-card">
+                        <div class="result">+210%</div>
+                        <div class="result-label">Website Traffic</div>
+                        <h4>Africell Digital Overhaul</h4>
+                        <p>Comprehensive digital marketing strategy that tripled online engagement and boosted conversions.</p>
+                    </div>
+                    <div class="case-card">
+                        <div class="result">85%</div>
+                        <div class="result-label">Brand Recall</div>
+                        <h4>Rokel Bank Rebrand</h4>
+                        <p>Complete brand transformation that made Rokel Bank the most recognised financial brand in Sierra Leone.</p>
+                    </div>
+                    <div class="case-card">
+                        <div class="result">3.2M</div>
+                        <div class="result-label">Social Reach</div>
+                        <h4>Orange Campaign</h4>
+                        <p>Viral social media campaign that reached millions across West Africa and generated record engagement.</p>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:32px;">
+                    <a href="#" data-page="case-studies" class="btn btn-outline">View All Case Studies <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- TESTIMONIALS -->
+        <div class="section-padding" style="background:rgba(255,255,255,0.015);">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Testimonials</span>
+                    <h2 class="section-title">What Our <span class="highlight">Clients Say</span></h2>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>“Brand Everything SL completely transformed our brand. We went from being invisible to the most talked-about bank in the country.”</blockquote>
+                        <div class="author">
+                            <div class="avatar">JD</div>
+                            <div><div class="name">John Doe</div><div class="role">CEO, Rokel Bank</div></div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>“Their digital marketing expertise is unmatched. Our campaign with them delivered a 40% increase in sales within three months.”</blockquote>
+                        <div class="author">
+                            <div class="avatar">AM</div>
+                            <div><div class="name">Aminata Mansaray</div><div class="role">CMO, Africell SL</div></div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>“Working with Brand Everything SL felt like having a global agency right here in Freetown. World-class quality, local understanding.”</blockquote>
+                        <div class="author">
+                            <div class="avatar">SK</div>
+                            <div><div class="name">Samuel Kargbo</div><div class="role">Director, Orange SL</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHY CHOOSE US -->
+        <div class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Why Us</span>
+                    <h2 class="section-title">Built for <span class="highlight">Business Growth</span></h2>
+                    <p class="section-sub">We combine global standards with local expertise to deliver results that matter.</p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="icon"><i class="fas fa-globe-africa"></i></div>
+                        <h4>Local Expertise</h4>
+                        <p>Deep understanding of the Sierra Leonean market and consumer behavior.</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="icon"><i class="fas fa-medal"></i></div>
+                        <h4>Global Standards</h4>
+                        <p>World-class quality and processes that rival top international agencies.</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="icon"><i class="fas fa-rocket"></i></div>
+                        <h4>Results-Driven</h4>
+                        <p>Every project is designed to deliver measurable business growth.</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="icon"><i class="fas fa-handshake"></i></div>
+                        <h4>Partnership Mindset</h4>
+                        <p>We succeed when you succeed. Long-term relationships are our foundation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA: FREE BRAND AUDIT -->
+        <div class="section-padding" style="padding-top:0;">
+            <div class="container">
+                <div class="cta-section">
+                    <h2>Ready to <span class="highlight">Transform</span> Your Brand?</h2>
+                    <p>Get a free, no-obligation brand audit from our experts. We'll analyze your current brand positioning and give you actionable insights.</p>
+                    <div class="btn-group">
+                        <a href="#" data-page="brand-audit" class="btn btn-primary"><i class="fas fa-rocket"></i> Claim Your Free Audit</a>
+                        <a href="#" data-page="contact" class="btn btn-outline"><i class="fas fa-comment"></i> Talk to an Expert</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRICING PREVIEW -->
+        <div class="section-padding" style="background:rgba(255,255,255,0.015);padding-top:60px;padding-bottom:60px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Pricing</span>
+                    <h2 class="section-title">Choose Your <span class="highlight">Package</span></h2>
+                    <p class="section-sub">Flexible pricing designed for businesses of all sizes. Custom solutions available.</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="plan-name">Starter</div>
+                        <div class="price">$499 <span>/mo</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Brand Identity Package</li>
+                            <li><i class="fas fa-check"></i> Social Media Management</li>
+                            <li><i class="fas fa-check"></i> Monthly Performance Report</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                        </ul>
+                        <a href="#" data-page="pricing" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+                    </div>
+                    <div class="pricing-card popular">
+                        <div class="badge-popular">Most Popular</div>
+                        <div class="plan-name">Professional</div>
+                        <div class="price">$999 <span>/mo</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Everything in Starter</li>
+                            <li><i class="fas fa-check"></i> Full Digital Marketing</li>
+                            <li><i class="fas fa-check"></i> Content Creation</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Monthly Strategy Call</li>
+                        </ul>
+                        <a href="#" data-page="pricing" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="plan-name">Enterprise</div>
+                        <div class="price">Custom</div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Everything in Professional</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                            <li><i class="fas fa-check"></i> Full Brand Strategy</li>
+                            <li><i class="fas fa-check"></i> Custom Development</li>
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                        </ul>
+                        <a href="#" data-page="contact" class="btn btn-outline" style="width:100%;justify-content:center;">Contact Us</a>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:32px;">
+                    <a href="#" data-page="pricing" class="btn btn-primary">View All Pricing <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOG / INSIGHTS -->
+        <div class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Insights</span>
+                    <h2 class="section-title">Latest <span class="highlight">Marketing Insights</span></h2>
+                    <p class="section-sub">Stay ahead with expert tips, trends, and strategies from our team.</p>
+                </div>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-chart-line"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">March 2026</div>
+                            <h4>5 Digital Marketing Trends for 2026</h4>
+                            <p>Discover the trends that will shape the future of digital marketing in Sierra Leone and beyond.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-paint-brush"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">February 2026</div>
+                            <h4>Why Brand Identity Matters More Than Ever</h4>
+                            <p>In a crowded market, your brand identity is your competitive advantage. Here's why.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-bullseye"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">January 2026</div>
+                            <h4>How to Build a Brand That Grows</h4>
+                            <p>A step-by-step guide to building a brand that drives business growth and customer loyalty.</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:32px;">
+                    <a href="#" data-page="blog" class="btn btn-outline">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ============================================================
+    PAGE: ABOUT
+    ============================================================ -->
+    <section class="page-section" id="page-about">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <span class="section-label">About Us</span>
+                <h2 class="section-title">We Are <span class="highlight">Brand Everything SL</span></h2>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:30px;">
+                    <div>
+                        <p style="color:var(--text-muted);font-size:1.05rem;line-height:1.9;margin-bottom:20px;">
+                            Founded in Freetown, Brand Everything SL is a creative branding and digital marketing agency that helps businesses in Sierra Leone and across West Africa build powerful, memorable brands.
+                        </p>
+                        <p style="color:var(--text-muted);font-size:1.05rem;line-height:1.9;margin-bottom:20px;">
+                            We believe that great brands are built on a foundation of strategy, creativity, and deep understanding of the local market. Our team combines international experience with local insight to deliver work that stands out and drives growth.
+                        </p>
+                        <p style="color:var(--text-muted);font-size:1.05rem;line-height:1.9;">
+                            From banks to telecoms, from startups to enterprises — we've helped businesses of all sizes achieve their goals. We don't just build brands, we build businesses.
+                        </p>
+                    </div>
+                    <div>
+                        <div style="background:var(--card-bg);border-radius:var(--radius);padding:32px;border:1px solid rgba(255,255,255,0.05);">
+                            <h3 style="margin-bottom:16px;font-size:1.2rem;">Our Mission</h3>
+                            <p style="color:var(--text-muted);line-height:1.8;">To empower businesses in Sierra Leone with world-class branding and marketing that drives growth, creates jobs, and builds a stronger economy.</p>
+                            <hr style="border-color:rgba(255,255,255,0.05);margin:20px 0;" />
+                            <h3 style="margin-bottom:16px;font-size:1.2rem;">Our Values</h3>
+                            <ul style="display:grid;gap:10px;">
+                                <li style="display:flex;align-items:center;gap:12px;color:var(--text-muted);"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Excellence in everything we do</li>
+                                <li style="display:flex;align-items:center;gap:12px;color:var(--text-muted);"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Deep local understanding</li>
+                                <li style="display:flex;align-items:center;gap:12px;color:var(--text-muted);"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Results-driven approach</li>
+                                <li style="display:flex;align-items:center;gap:12px;color:var(--text-muted);"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Long-term partnerships</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: SERVICES
+    ============================================================ -->
+    <section class="page-section" id="page-services">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">What We Offer</span>
+                    <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+                    <p class="section-sub">Full-service branding and marketing solutions designed to help your business grow.</p>
+                </div>
+                <div class="services-grid" style="margin-top:40px;">
+                    <div class="service-card"><div class="icon"><i class="fas fa-palette"></i></div><h3>Brand Identity</h3><p>Logo, visual identity, brand guidelines, and positioning that makes you unforgettable.</p></div>
+                    <div class="service-card"><div class="icon"><i class="fas fa-bullhorn"></i></div><h3>Digital Marketing</h3><p>SEO, social media, PPC, email marketing — data-driven campaigns that deliver real ROI.</p></div>
+                    <div class="service-card"><div class="icon"><i class="fas fa-laptop-code"></i></div><h3>Web &amp; App Design</h3><p>Stunning, high-performance websites and mobile apps that convert visitors into customers.</p></div>
+                    <div class="service-card"><div class="icon"><i class="fas fa-video"></i></div><h3>Content &amp; Video</h3><p>Professional photography, video production, and content marketing that tells your story.</p></div>
+                    <div class="service-card"><div class="icon"><i class="fas fa-chart-pie"></i></div><h3>Brand Strategy</h3><p>Comprehensive brand strategy that aligns your business goals with your brand identity.</p></div>
+                    <div class="service-card"><div class="icon"><i class="fas fa-users"></i></div><h3>Social Media Management</h3><p>Full-service social media management that builds community and drives engagement.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: PORTFOLIO
+    ============================================================ -->
+    <section class="page-section" id="page-portfolio">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Our Work</span>
+                    <h2 class="section-title">Portfolio <span class="highlight">Showcase</span></h2>
+                    <p class="section-sub">Explore our recent projects and see how we've helped brands stand out.</p>
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="digital">Digital</button>
+                    <button class="filter-btn" data-filter="strategy">Strategy</button>
+                </div>
+                <div class="portfolio-grid" id="portfolioGrid">
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);"><i class="fas fa-university"></i><div class="overlay"><i class="fas fa-search-plus"></i></div></div>
+                        <div class="info"><h4>Rokel Bank Rebrand</h4><p>Complete brand overhaul for Sierra Leone's oldest bank.</p><span class="tag">Branding</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="digital">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);"><i class="fas fa-mobile-alt"></i><div class="overlay"><i class="fas fa-search-plus"></i></div></div>
+                        <div class="info"><h4>Africell Digital Campaign</h4><p>Multi-channel marketing campaign driving 40% growth.</p><span class="tag">Digital</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="strategy">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);"><i class="fas fa-satellite"></i><div class="overlay"><i class="fas fa-search-plus"></i></div></div>
+                        <div class="info"><h4>Orange Brand Strategy</h4><p>Strategic brand positioning and visual identity refresh.</p><span class="tag">Strategy</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);"><i class="fas fa-plane"></i><div class="overlay"><i class="fas fa-search-plus"></i></div></div>
+                        <div class="info"><h4>Sierra Leone Airlines</h4><p>Full brand identity and visual system for the national airline.</p><span class="tag">Branding</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="digital">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);"><i class="fas fa-tint"></i><div class="overlay"><i class="fas fa-search-plus"></i></div></div>
+                        <div class="info"><h4>Brewery Social Campaign</h4><p>Viral social media campaign for Sierra Leone Brewery.</p><span class="tag">Digital</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="strategy">
+                        <div class="thumb" style="background:linear-gradient(135deg,#1a2d44,#0f1a2e);"><i class="fas fa-building"></i><div class="overlay"><i class="fas fa-search-plus"></i></div></div>
+                        <div class="info"><h4>Bank of SL Positioning</h4><p>Strategic brand repositioning for the central bank.</p><span class="tag">Strategy</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: CASE STUDIES
+    ============================================================ -->
+    <section class="page-section" id="page-case-studies">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Results</span>
+                    <h2 class="section-title">Case <span class="highlight">Studies</span></h2>
+                    <p class="section-sub">Real results for real businesses. Here's what we've achieved for our clients.</p>
+                </div>
+                <div class="case-grid" style="margin-top:40px;">
+                    <div class="case-card">
+                        <div class="result">+210%</div>
+                        <div class="result-label">Website Traffic</div>
+                        <h4>Africell Digital Overhaul</h4>
+                        <p>Comprehensive digital marketing strategy that tripled online engagement and boosted conversions by 45%.</p>
+                        <div style="margin-top:12px;color:var(--text-muted);font-size:0.85rem;"><i class="fas fa-calendar" style="color:var(--accent);"></i> 2025</div>
+                    </div>
+                    <div class="case-card">
+                        <div class="result">85%</div>
+                        <div class="result-label">Brand Recall</div>
+                        <h4>Rokel Bank Rebrand</h4>
+                        <p>Complete brand transformation that made Rokel Bank the most recognised financial brand in Sierra Leone.</p>
+                        <div style="margin-top:12px;color:var(--text-muted);font-size:0.85rem;"><i class="fas fa-calendar" style="color:var(--accent);"></i> 2025</div>
+                    </div>
+                    <div class="case-card">
+                        <div class="result">3.2M</div>
+                        <div class="result-label">Social Reach</div>
+                        <h4>Orange Campaign</h4>
+                        <p>Viral social media campaign that reached millions across West Africa and generated record engagement.</p>
+                        <div style="margin-top:12px;color:var(--text-muted);font-size:0.85rem;"><i class="fas fa-calendar" style="color:var(--accent);"></i> 2025</div>
+                    </div>
+                    <div class="case-card">
+                        <div class="result">$2.4M</div>
+                        <div class="result-label">Revenue Generated</div>
+                        <h4>Sierra Leone Airlines Partnership</h4>
+                        <p>Full brand strategy and marketing campaign that drove record ticket sales and brand awareness.</p>
+                        <div style="margin-top:12px;color:var(--text-muted);font-size:0.85rem;"><i class="fas fa-calendar" style="color:var(--accent);"></i> 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: BLOG
+    ============================================================ -->
+    <section class="page-section" id="page-blog">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Insights</span>
+                    <h2 class="section-title">Marketing <span class="highlight">Blog</span></h2>
+                    <p class="section-sub">Expert insights, trends, and strategies to help you grow your brand.</p>
+                </div>
+                <div class="blog-grid" style="margin-top:40px;">
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-chart-line"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">March 2026</div>
+                            <h4>5 Digital Marketing Trends for 2026</h4>
+                            <p>Discover the trends that will shape the future of digital marketing in Sierra Leone and beyond.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-paint-brush"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">February 2026</div>
+                            <h4>Why Brand Identity Matters More Than Ever</h4>
+                            <p>In a crowded market, your brand identity is your competitive advantage. Here's why.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-bullseye"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">January 2026</div>
+                            <h4>How to Build a Brand That Grows</h4>
+                            <p>A step-by-step guide to building a brand that drives business growth and customer loyalty.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">December 2025</div>
+                            <h4>Social Media Strategy for Banks</h4>
+                            <p>How financial institutions can use social media to build trust and engage customers.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-search"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">November 2025</div>
+                            <h4>SEO in Sierra Leone: What Works</h4>
+                            <p>Local SEO strategies that help businesses in Sierra Leone rank higher and get found.</p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-thumb"><i class="fas fa-video"></i></div>
+                        <div class="blog-body">
+                            <div class="meta">October 2025</div>
+                            <h4>Video Marketing: The Future of Engagement</h4>
+                            <p>Why video content is essential for modern marketing and how to get started.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: BRAND AUDIT
+    ============================================================ -->
+    <section class="page-section" id="page-brand-audit">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Free Audit</span>
+                    <h2 class="section-title">Get Your <span class="highlight">Free Brand Audit</span></h2>
+                    <p class="section-sub">Fill in the details below and our experts will analyze your brand and give you actionable insights.</p>
+                </div>
+                <div class="audit-wrap">
+                    <div class="audit-form">
+                        <form id="auditForm">
+                            <div class="form-group">
+                                <label>Company Name</label>
+                                <input type="text" placeholder="Your company name" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="you@company.com" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Industry</label>
+                                <select>
+                                    <option>Banking &amp; Finance</option>
+                                    <option>Telecommunications</option>
+                                    <option>Retail</option>
+                                    <option>Hospitality</option>
+                                    <option>Technology</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Tell us about your brand</label>
+                                <textarea placeholder="What are your current branding challenges?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-rocket"></i> Submit for Free Audit</button>
+                        </form>
+                    </div>
+                    <div class="audit-info">
+                        <div class="benefit">
+                            <i class="fas fa-search"></i>
+                            <div><h4>Comprehensive Analysis</h4><p>We'll review your current brand positioning, visual identity, and market presence.</p></div>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-lightbulb"></i>
+                            <div><h4>Actionable Insights</h4><p>Get a detailed report with specific recommendations to improve your brand.</p></div>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-clock"></i>
+                            <div><h4>Fast Turnaround</h4><p>Receive your audit results within 48 hours of submission.</p></div>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-gem"></i>
+                            <div><h4>No Obligation</h4><p>This is a completely free service with no strings attached.</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BRAND HEALTH QUIZ -->
+                <div class="quiz-wrap">
+                    <h3 style="font-size:1.4rem;margin-bottom:8px;"><i class="fas fa-heartbeat" style="color:var(--accent);"></i> Brand Health Score Quiz</h3>
+                    <p style="color:var(--text-muted);margin-bottom:20px;">Answer a few quick questions to get your brand health score.</p>
+                    <div id="quizContainer">
+                        <div class="quiz-question" id="quizQuestion">How well do you know your target audience?</div>
+                        <div class="quiz-options" id="quizOptions">
+                            <button data-score="3">Very well</button>
+                            <button data-score="2">Somewhat</button>
+                            <button data-score="1">Not really</button>
+                            <button data-score="0">Not at all</button>
+                        </div>
+                        <div class="quiz-result" id="quizResult" style="display:none;">
+                            <strong>Your Brand Health Score: <span id="quizScoreDisplay">0</span>/15</strong>
+                            <p id="quizFeedback" style="margin-top:6px;color:var(--text-muted);"></p>
+                            <button class="btn btn-primary" style="margin-top:12px;" onclick="resetQuiz()">Retake Quiz</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROI CALCULATOR -->
+                <div class="roi-wrap">
+                    <h3 style="font-size:1.4rem;margin-bottom:8px;"><i class="fas fa-calculator" style="color:var(--accent);"></i> Marketing ROI Calculator</h3>
+                    <p style="color:var(--text-muted);margin-bottom:16px;">Estimate the return on investment for your marketing campaigns.</p>
+                    <div class="roi-row">
+                        <div>
+                            <label style="font-size:0.85rem;color:var(--text-muted);">Monthly Ad Spend ($)</label>
+                            <input type="number" id="roiSpend" value="1000" />
+                        </div>
+                        <div>
+                            <label style="font-size:0.85rem;color:var(--text-muted);">Monthly Revenue ($)</label>
+                            <input type="number" id="roiRevenue" value="5000" />
+                        </div>
+                        <div>
+                            <label style="font-size:0.85rem;color:var(--text-muted);">Customer Lifetime Value ($)</label>
+                            <input type="number" id="roiLtv" value="1200" />
+                        </div>
+                    </div>
+                    <div class="roi-result" id="roiResult">
+                        ROI: <span id="roiPercentage">400</span>% | Profit: $<span id="roiProfit">4000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: PRICING
+    ============================================================ -->
+    <section class="page-section" id="page-pricing">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Pricing</span>
+                    <h2 class="section-title">Choose Your <span class="highlight">Plan</span></h2>
+                    <p class="section-sub">Flexible pricing designed for businesses of all sizes. Custom solutions available.</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="plan-name">Starter</div>
+                        <div class="price">$499 <span>/mo</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Brand Identity Package</li>
+                            <li><i class="fas fa-check"></i> Social Media Management</li>
+                            <li><i class="fas fa-check"></i> Monthly Performance Report</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                        </ul>
+                        <a href="#" data-page="contact" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+                    </div>
+                    <div class="pricing-card popular">
+                        <div class="badge-popular">Most Popular</div>
+                        <div class="plan-name">Professional</div>
+                        <div class="price">$999 <span>/mo</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Everything in Starter</li>
+                            <li><i class="fas fa-check"></i> Full Digital Marketing</li>
+                            <li><i class="fas fa-check"></i> Content Creation</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Monthly Strategy Call</li>
+                        </ul>
+                        <a href="#" data-page="contact" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="plan-name">Enterprise</div>
+                        <div class="price">Custom</div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Everything in Professional</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                            <li><i class="fas fa-check"></i> Full Brand Strategy</li>
+                            <li><i class="fas fa-check"></i> Custom Development</li>
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                        </ul>
+                        <a href="#" data-page="contact" class="btn btn-outline" style="width:100%;justify-content:center;">Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- PRICING CALCULATOR -->
+                <div class="calculator-wrap">
+                    <h3 style="font-size:1.3rem;margin-bottom:12px;"><i class="fas fa-sliders-h" style="color:var(--accent);"></i> Build Your Package</h3>
+                    <p style="color:var(--text-muted);margin-bottom:20px;">Select the services you need and get an instant estimate.</p>
+                    <div class="calc-row">
+                        <div>
+                            <label>Brand Identity</label>
+                            <select id="calcBranding">
+                                <option value="0">None</option>
+                                <option value="500">Basic ($500)</option>
+                                <option value="1000" selected>Premium ($1000)</option>
+                                <option value="2000">Enterprise ($2000)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Digital Marketing</label>
+                            <select id="calcMarketing">
+                                <option value="0">None</option>
+                                <option value="400">Basic ($400)</option>
+                                <option value="800" selected>Pro ($800)</option>
+                                <option value="1500">Enterprise ($1500)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Web Development</label>
+                            <select id="calcWeb">
+                                <option value="0">None</option>
+                                <option value="600">Basic ($600)</option>
+                                <option value="1200" selected>Professional ($1200)</option>
+                                <option value="2500">Enterprise ($2500)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Content &amp; Video</label>
+                            <select id="calcContent">
+                                <option value="0">None</option>
+                                <option value="300">Basic ($300)</option>
+                                <option value="700" selected>Pro ($700)</option>
+                                <option value="1400">Enterprise ($1400)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="calc-total">Total: $<span id="calcTotal">3700</span>/mo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: CONTACT
+    ============================================================ -->
+    <section class="page-section" id="page-contact">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+                    <p class="section-sub">Have a project in mind? We'd love to hear from you.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="details">
+                                <h4>Visit Us</h4>
+                                <p>48 Main Street, Freetown, Sierra Leone</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="details">
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+23276123456">+232 76 123 456</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="details">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/23276123456" target="_blank">Chat with us on WhatsApp</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <div class="details">
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:hello@brandeverythingsl.com">hello@brandeverythingsl.com</a></p>
+                            </div>
+                        </div>
+                        <div style="margin-top:8px;">
+                            <a href="https://wa.me/23276123456" target="_blank" class="btn btn-primary" style="width:100%;justify-content:center;">
+                                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="map-placeholder">
+                            <i class="fas fa-map"></i> Google Map — Freetown, Sierra Leone
+                        </div>
+                        <div style="margin-top:20px;background:var(--card-bg);border-radius:var(--radius);padding:28px 24px;border:1px solid rgba(255,255,255,0.05);">
+                            <h4 style="margin-bottom:12px;">Send a Message</h4>
+                            <form id="contactForm">
+                                <div style="display:grid;gap:14px;">
+                                    <input type="text" placeholder="Your Name" required />
+                                    <input type="email" placeholder="Your Email" required />
+                                    <textarea placeholder="Message" rows="4" required></textarea>
+                                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                                        <i class="fas fa-cloud-upload-alt"></i>
+                                        <p>Click to upload a file (quote request or brief)</p>
+                                        <input type="file" id="fileInput" style="display:none;" multiple />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: FAQ
+    ============================================================ -->
+    <section class="page-section" id="page-faq">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Questions?</span>
+                    <h2 class="section-title">Frequently <span class="highlight">Asked Questions</span></h2>
+                    <p class="section-sub">Everything you need to know about working with us.</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-q">What services do you offer? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-a">We offer brand identity, digital marketing, web &amp; app design, content &amp; video production, brand strategy, and social media management.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">How much do your services cost? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-a">Our pricing starts at $499/month for our Starter package. We also offer custom enterprise solutions. Use our pricing calculator to get an instant estimate.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">Do you work with international clients? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-a">Yes! While we're based in Sierra Leone, we work with clients across Africa and internationally. Our remote-first approach means we can serve clients anywhere.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">How long does a typical project take? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-a">Project timelines vary depending on scope. A brand identity project typically takes 4-6 weeks, while a full digital marketing campaign can be ongoing.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">What makes Brand Everything SL different? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-a">We combine global standards with deep local expertise. We don't just build brands — we build businesses. Our focus is on delivering measurable results that drive growth.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-q">Do you offer a free consultation? <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-a">Yes! We offer a free brand audit and consultation. Fill out the form on our Brand Audit page and we'll get back to you within 48 hours.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PAGE: DASHBOARD (Client)
+    ============================================================ -->
+    <section class="page-section" id="page-dashboard">
+        <div class="section-padding" style="padding-top:120px;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Client Portal</span>
+                    <h2 class="section-title">Your <span class="highlight">Dashboard</span></h2>
+                    <p class="section-sub">Access your projects, updates, and files.</p>
+                </div>
+                <div class="dashboard-wrap">
+                    <!-- Login Form -->
+                    <div id="dashboardLogin" class="login-form">
+                        <h3 style="margin-bottom:16px;">Login to Dashboard</h3>
+                        <input type="email" id="loginEmail" placeholder="Email" value="client@brandsl.com" />
+                        <input type="password" id="loginPassword" placeholder="Password" value="password" />
+                        <button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="loginDashboard()">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </button>
+                        <p style="margin-top:12px;color:var(--text-muted);font-size:0.85rem;">Demo: use any email/password</p>
+                    </div>
+
+                    <!-- Dashboard Content -->
+                    <div id="dashboardContent" class="dashboard-content">
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px;">
+                            <h3><i class="fas fa-user-circle" style="color:var(--accent);"></i> Welcome, <span id="dashboardUser">Client</span></h3>
+                            <button class="btn btn-outline" onclick="logoutDashboard()"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                        </div>
+                        <div class="project-card">
+                            <div style="display:flex;justify-content:space-between;align-items:center;">
+                                <h4>Rokel Bank Rebrand</h4>
+                                <span class="status">In Progress</span>
+                            </div>
+                            <p style="color:var(--text-muted);font-size:0.9rem;margin-top:6px;">Last update: Brand guidelines delivered. Logo finalization in progress.</p>
+                        </div>
+                        <div class="project-card">
+                            <div style="display:flex;justify-content:space-between;align-items:center;">
+                                <h4>Africell Digital Campaign</h4>
+                                <span class="status" style="background:#2ecc71;color:#fff;">Completed</span>
+                            </div>
+                            <p style="color:var(--text-muted);font-size:0.9rem;margin-top:6px;">Final report available for download.</p>
+                        </div>
+
+                        <h4 style="margin-top:24px;margin-bottom:12px;">Upload Files</h4>
+                        <div class="file-upload-area" onclick="document.getElementById('dashboardFileInput').click()">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Click to upload files (briefs, references, etc.)</p>
+                            <input type="file" id="dashboardFileInput" style="display:none;" multiple />
+                        </div>
+                        <p style="color:var(--text-muted);font-size:0.8rem;margin-top:8px;">Uploaded files will appear here (simulated).</p>
+                        <div id="uploadedFiles" style="margin-top:12px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo" style="font-size:1.3rem;"><i class="fas fa-crown"></i> Brand<span style="color:var(--accent);">Everything</span>SL</div>
+                    <p>We don't just build brands — we build businesses. Premium branding and digital marketing agency in Sierra Leone.</p>
+                    <div class="footer-socials" style="margin-top:16px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#" data-page="about">About</a></li>
+                        <li><a href="#" data-page="services">Services</a></li>
+                        <li><a href="#" data-page="portfolio">Portfolio</a></li>
+                        <li><a href="#" data-page="case-studies">Case Studies</a></li>
+                        <li><a href="#" data-page="blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#" data-page="faq">FAQ</a></li>
+                        <li><a href="#" data-page="brand-audit">Free Audit</a></li>
+                        <li><a href="#" data-page="pricing">Pricing</a></li>
+                        <li><a href="#" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+23276123456">+232 30 867 619</a></li>
+                        <li><a href="mailto:karifasmart@gmail.com">karifasmart@gmail.com</a></li>
+                        <li>48 Main St, Freetown, SL</li>
+                        <li><a href="https://wa.me/23230867619" target="_blank"><i class="fab fa-whatsapp" style="color:var(--accent);"></i> WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Brand Everything SL. All rights reserved.</span>
+                <span>Built with <i class="fas fa-heart" style="color:var(--accent);"></i> in Sierra Leone</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ============================================================
+    JAVASCRIPT
+    ============================================================ -->
+    <script>
+        // ============================================================
+        // NAVIGATION
+        // ============================================================
+        const navbar = document.getElementById('navbar');
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const allNavLinks = navLinks.querySelectorAll('a');
+
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            navLinks.classList.toggle('open');
+        });
+
+        // Page navigation
+        const pages = document.querySelectorAll('.page-section');
+        let currentPage = 'home';
+
+        function navigateTo(pageId) {
+            // Update nav links
+            allNavLinks.forEach(link => {
+                link.classList.toggle('active', link.dataset.page === pageId);
+            });
+            // Show/hide sections
+            pages.forEach(section => {
+                section.classList.toggle('active', section.id === 'page-' + pageId);
+            });
+            currentPage = pageId;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            // Trigger animations
+            setTimeout(() => {
+                document.querySelectorAll('.page-section.active .animate-on-scroll').forEach(el => {
+                    el.classList.add('visible');
+                });
+            }, 300);
+        }
+
+        // Handle nav clicks
+        allNavLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const page = link.dataset.page;
+                if (page) {
+                    navigateTo(page);
+                    hamburger.classList.remove('open');
+                    navLinks.classList.remove('open');
+                }
+            });
+        });
+
+        // Logo click
+        document.querySelector('.logo')?.addEventListener('click', (e) => {
+            e.preventDefault();
+            navigateTo('home');
+        });
+
+        // ============================================================
+        // PORTFOLIO FILTERING
+        // ============================================================
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                portfolioItems.forEach(item => {
+                    const cat = item.dataset.category;
+                    item.style.display = (filter === 'all' || cat === filter) ? 'block' : 'none';
+                });
+            });
+        });
+
+        // ============================================================
+        // FAQ ACCORDION
+        // ============================================================
+        document.querySelectorAll('.faq-q').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const answer = btn.nextElementSibling;
+                const isOpen = answer.classList.contains('open');
+                document.querySelectorAll('.faq-a').forEach(a => a.classList.remove('open'));
+                document.querySelectorAll('.faq-q').forEach(b => b.classList.remove('open'));
+                if (!isOpen) {
+                    answer.classList.add('open');
+                    btn.classList.add('open');
+                }
+            });
+        });
+
+        // ============================================================
+        // COUNTER ANIMATION
+        // ============================================================
+        const counters = document.querySelectorAll('.counter-number');
+        let countersAnimated = false;
+
+        function animateCounters() {
+            if (countersAnimated) return;
+            counters.forEach(counter => {
+                const target = parseInt(counter.dataset.target);
+                let current = 0;
+                const step = Math.max(1, Math.floor(target / 60));
+                const increment = () => {
+                    current += step;
+                    if (current >= target) {
+                        counter.textContent = target;
+                        return;
+                    }
+                    counter.textContent = current;
+                    requestAnimationFrame(() => setTimeout(increment, 30));
+                };
+                increment();
+            });
+            countersAnimated = true;
+        }
+
+        // Trigger counters when home page is visible
+        const homeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && currentPage === 'home') {
+                    animateCounters();
+                }
+            });
+        });
+        const homeSection = document.getElementById('page-home');
+        if (homeSection) homeObserver.observe(homeSection);
+
+        // Also trigger on navigation to home
+        const origNavigate = navigateTo;
+        navigateTo = function(pageId) {
+            origNavigate(pageId);
+            if (pageId === 'home') {
+                setTimeout(animateCounters, 500);
+            }
+        };
+
+        // ============================================================
+        // SCROLL ANIMATIONS (Intersection Observer)
+        // ============================================================
+        const animElements = document.querySelectorAll('.animate-on-scroll');
+        const animObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        animElements.forEach(el => animObserver.observe(el));
+
+        // Mark some elements for animation
+        document.querySelectorAll(
+            '.service-card, .portfolio-item, .case-card, .testimonial-card, .why-item, .pricing-card, .blog-card, .contact-card'
+        ).forEach(el => {
+            el.classList.add('animate-on-scroll');
+            animObserver.observe(el);
+        });
+
+        // ============================================================
+        // PRICING CALCULATOR
+        // ============================================================
+        function updateCalc() {
+            const branding = parseInt(document.getElementById('calcBranding').value);
+            const marketing = parseInt(document.getElementById('calcMarketing').value);
+            const web = parseInt(document.getElementById('calcWeb').value);
+            const content = parseInt(document.getElementById('calcContent').value);
+            const total = branding + marketing + web + content;
+            document.getElementById('calcTotal').textContent = total;
+        }
+        document.querySelectorAll('#calcBranding, #calcMarketing, #calcWeb, #calcContent').forEach(el => {
+            el.addEventListener('change', updateCalc);
+        });
+        updateCalc();
+
+        // ============================================================
+        // ROI CALCULATOR
+        // ============================================================
+        function updateROI() {
+            const spend = parseFloat(document.getElementById('roiSpend').value) || 0;
+            const revenue = parseFloat(document.getElementById('roiRevenue').value) || 0;
+            const profit = revenue - spend;
+            const roi = spend > 0 ? Math.round((profit / spend) * 100) : 0;
+            document.getElementById('roiPercentage').textContent = roi;
+            document.getElementById('roiProfit').textContent = profit.toFixed(0);
+        }
+        document.querySelectorAll('#roiSpend, #roiRevenue, #roiLtv').forEach(el => {
+            el.addEventListener('input', updateROI);
+        });
+        updateROI();
+
+        // ============================================================
+        // BRAND HEALTH QUIZ
+        // ============================================================
+        const quizQuestions = [
+            { q: 'How well do you know your target audience?', options: ['Very well', 'Somewhat', 'Not really', 'Not at all'],
+                scores: [3, 2, 1, 0] },
+            { q: 'How consistent is your brand identity across all channels?', options: ['Very consistent', 'Mostly consistent',
+                    'Somewhat inconsistent', 'Very inconsistent'
+                ], scores: [3, 2, 1, 0] },
+            { q: 'How effective is your digital marketing strategy?', options: ['Highly effective', 'Moderately effective',
+                    'Not very effective', 'Ineffective'
+                ], scores: [3, 2, 1, 0] },
+            { q: 'How well do you track and measure marketing ROI?', options: ['Very well', 'Somewhat', 'Not really',
+                    'Not at all'
+                ], scores: [3, 2, 1, 0] },
+            { q: 'How strong is your brand presence in the market?', options: ['Market leader', 'Strong presence',
+                    'Limited presence', 'Unknown'
+                ], scores: [3, 2, 1, 0] },
+        ];
+
+        let currentQuiz = 0;
+        let totalQuizScore = 0;
+
+        function loadQuizQuestion() {
+            if (currentQuiz >= quizQuestions.length) {
+                showQuizResult();
+                return;
+            }
+            const q = quizQuestions[currentQuiz];
+            document.getElementById('quizQuestion').textContent = q.q;
+            const opts = document.getElementById('quizOptions');
+            opts.innerHTML = '';
+            q.options.forEach((opt, idx) => {
+                const btn = document.createElement('button');
+                btn.textContent = opt;
+                btn.dataset.score = q.scores[idx];
+                btn.addEventListener('click', () => {
+                    totalQuizScore += parseInt(btn.dataset.score);
+                    currentQuiz++;
+                    loadQuizQuestion();
+                });
+                opts.appendChild(btn);
+            });
+            document.getElementById('quizResult').style.display = 'none';
+        }
+
+        function showQuizResult() {
+            document.getElementById('quizResult').style.display = 'block';
+            document.getElementById('quizScoreDisplay').textContent = totalQuizScore;
+            const maxScore = 15;
+            const pct = Math.round((totalQuizScore / maxScore) * 100);
+            let feedback = '';
+            if (pct >= 80) feedback = '🔥 Excellent! Your brand is in great shape. Keep up the amazing work!';
+            else if (pct >= 60) feedback = '👍 Good foundation! With some improvements, your brand can be even stronger.';
+            else if (pct >= 40) feedback = '📈 Room for growth! We can help you build a stronger brand presence.';
+            else feedback = '🚀 Your brand has huge potential! Let us help you unlock it.';
+            document.getElementById('quizFeedback').textContent = feedback;
+            document.getElementById('quizOptions').innerHTML = '';
+            document.getElementById('quizQuestion').textContent = 'Quiz Complete!';
+        }
+
+        window.resetQuiz = function() {
+            currentQuiz = 0;
+            totalQuizScore = 0;
+            document.getElementById('quizResult').style.display = 'none';
+            loadQuizQuestion();
+        };
+        loadQuizQuestion();
+
+        // ============================================================
+        // CHATBOT
+        // ============================================================
+        const chatbotToggle = document.getElementById('chatbotToggle');
+        const chatbotWindow = document.getElementById('chatbotWindow');
+        const chatbotClose = document.getElementById('chatbotClose');
+        const chatInput = document.getElementById('chatInput');
+        const chatSend = document.getElementById('chatSend');
+        const chatMessages = document.getElementById('chatMessages');
+
+        const botResponses = {
+            'hello': 'Hello! How can I help you with your branding or marketing needs?',
+            'hi': 'Hi there! I\'m here to answer any questions about Brand Everything SL.',
+            'pricing': 'Our pricing starts at $499/month for the Starter package. Check out our Pricing page for more details!',
+            'price': 'Our pricing starts at $499/month for the Starter package. Check out our Pricing page for more details!',
+            'services': 'We offer brand identity, digital marketing, web & app design, content & video, brand strategy, and social media management.',
+            'service': 'We offer brand identity, digital marketing, web & app design, content & video, brand strategy, and social media management.',
+            'audit': 'Yes! We offer a free brand audit. Fill out the form on our Brand Audit page and we\'ll get back to you within 48 hours.',
+            'brand': 'We build powerful, memorable brands that drive business growth. Our approach combines strategy, creativity, and local insight.',
+            'contact': 'You can reach us at +232 76 123 456, email hello@brandeverythingsl.com, or chat with us on WhatsApp!',
+            'help': 'I can help you with information about our services, pricing, brand audits, and more. What would you like to know?',
+        };
+
+        function getBotResponse(input) {
+            const lower = input.toLowerCase();
+            for (const [key, response] of Object.entries(botResponses)) {
+                if (lower.includes(key)) return response;
+            }
+            return "That's a great question! For the most detailed answer, I'd recommend reaching out to our team directly via the contact page. We'd love to chat!";
+        }
+
+        function addMessage(text, sender) {
+            const msg = document.createElement('div');
+            msg.className = `msg ${sender}`;
+            msg.textContent = text;
+            chatMessages.appendChild(msg);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function handleChatSend() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+            addMessage(text, 'user');
+            chatInput.value = '';
+            setTimeout(() => {
+                const response = getBotResponse(text);
+                addMessage(response, 'bot');
+            }, 400);
+        }
+
+        chatSend.addEventListener('click', handleChatSend);
+        chatInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleChatSend(); });
+        chatbotToggle.addEventListener('click', () => {
+            chatbotWindow.classList.toggle('open');
+        });
+        chatbotClose.addEventListener('click', () => {
+            chatbotWindow.classList.remove('open');
+        });
+
+        // ============================================================
+        // DASHBOARD
+        // ============================================================
+        function loginDashboard() {
+            const email = document.getElementById('loginEmail').value;
+            document.getElementById('dashboardUser').textContent = email.split('@')[0] || 'Client';
+            document.getElementById('dashboardLogin').style.display = 'none';
+            document.getElementById('dashboardContent').classList.add('active');
+        }
+
+        function logoutDashboard() {
+            document.getElementById('dashboardLogin').style.display = 'block';
+            document.getElementById('dashboardContent').classList.remove('active');
+        }
+
+        // File upload simulation for dashboard
+        document.getElementById('dashboardFileInput')?.addEventListener('change', function(e) {
+            const files = e.target.files;
+            const container = document.getElementById('uploadedFiles');
+            if (files.length > 0) {
+                container.innerHTML = '';
+                for (let f of files) {
+                    const p = document.createElement('p');
+                    p.textContent = `📎 ${f.name} (${(f.size/1024).toFixed(1)} KB) — uploaded successfully.`;
+                    p.style.color = 'var(--text-muted)';
+                    container.appendChild(p);
+                }
+            }
+        });
+
+        // ============================================================
+        // FORMS
+        // ============================================================
+        document.getElementById('auditForm')?.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('✅ Thank you! Your free brand audit request has been submitted. We\'ll get back to you within 48 hours.');
+            e.target.reset();
+        });
+
+        document.getElementById('contactForm')?.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('✅ Your message has been sent! We\'ll respond within 24 hours.');
+            e.target.reset();
+            document.getElementById('fileInput').value = '';
+        });
+
+        // ============================================================
+        // SMOOTH SCROLL FOR INTERNAL LINKS
+        // ============================================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        console.log('🚀 Brand Everything SL — Premium Agency Website Loaded.');
+        console.log('💡 Built with ❤️ in Sierra Leone.');
+    </script>
+
+</body>
+</html>
